@@ -1,0 +1,10 @@
+spec_version: 1
+name: dba_env
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
+
+name: dba-agent-env
+version: "1.0.0"
+description: "A real-world DBA agent environment for SQL optimization."
